@@ -1,6 +1,7 @@
 package br.com.exemplos.classes;
 
 public class ExemploCILocal {
+	
 	static void funcaoMembro(final int a, int b) {
 		final String sim = "ok";
 		int c = 10;
@@ -21,6 +22,7 @@ public class ExemploCILocal {
 	}
 	public static void main(String[] args) {
 		funcaoMembro(10, 20);
+		funcaoMembro(100, 200);
 
 	}
 
