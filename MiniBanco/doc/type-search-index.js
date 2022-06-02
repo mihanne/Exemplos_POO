@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"minibanco","l":"Conta"},{"p":"minibanco","l":"ContaCorrente"},{"p":"minibanco","l":"MiniBanco"}];updateSearchResults();
