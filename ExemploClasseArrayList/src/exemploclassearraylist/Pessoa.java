@@ -5,7 +5,6 @@ private String nome;
 private int idade;
 private String cpf;
 public Pessoa(String nome, int idade, String cpf) {
-	super();
 	this.nome = nome;
 	this.idade = idade;
 	this.cpf = cpf;
