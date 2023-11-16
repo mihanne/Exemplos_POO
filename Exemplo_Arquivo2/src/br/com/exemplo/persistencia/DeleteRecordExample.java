@@ -12,7 +12,7 @@ public class DeleteRecordExample {
 
 	private final String url = "jdbc:postgresql://localhost/BDlivrariaUniversitaria";
 	private final String user = "postgres";
-	private final String password = "b0aofmd0";
+	private final String password = "";
 
     public static void main(String[] argv) throws SQLException {
         DeleteRecordExample deleteStatementExample = new DeleteRecordExample();
