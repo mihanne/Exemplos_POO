@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class InsertRecordExample {
 	private final String url = "jdbc:postgresql://localhost/BDlivrariaUniversitaria";
 	private final String user = "postgres";
-	private final String password = "b0aofmd0";
+	private final String password = "";
 
     private static final String INSERT_USERS_SQL = "INSERT INTO users" +
         "  (id, name, email, country, password) VALUES " +
