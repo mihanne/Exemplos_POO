@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class ConexaoPostgre {
 	 private final String url = "jdbc:postgresql://localhost/BDlivrariaUniversitaria";
 	 private final String user = "postgres";
-	 private final String password = "b0aofmd0";
+	 private final String password = "";
 	 Connection conn = null;
 
 	 
@@ -27,7 +27,7 @@ public class ConexaoPostgre {
 	            } else {
 	                System.out.println("Failed to make connection!");
 	            }
-	            //vers„o do postgreeSQL
+	            //vers√£o do postgreeSQL
 	            Statement statement = conn.createStatement();
 	            ResultSet resultSet = statement.executeQuery("SELECT VERSION()");
 	            if (resultSet.next()) {
