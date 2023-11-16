@@ -10,7 +10,7 @@ public class UpdateRecordExample {
 
 	private final String url = "jdbc:postgresql://localhost/BDlivrariaUniversitaria";
 	private final String user = "postgres";
-	private final String password = "b0aofmd0";
+	private final String password = "";
 
     private static final String UPDATE_USERS_SQL = "update users set name = ? where id = ?;";
 
